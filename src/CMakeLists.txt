@@ -5,7 +5,7 @@ add_library(stbimage SHARED stb_image.c stb_image.h stb_image_write.h stb_image_
 
 target_include_directories(stbimage PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
-set_target_properties(stbimage PROPERTIES PUBLIC_HEADER stb_image.h stb_image_write.h stb_image_resize.h)
+set_target_properties(stbimage PROPERTIES PUBLIC_HEADER "stb_image.h stb_image_write.h stb_image_resize.h")
 
 install(TARGETS stbimage
         EXPORT stbimage-targets
