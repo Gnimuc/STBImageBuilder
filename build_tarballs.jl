@@ -3,7 +3,7 @@
 using BinaryBuilder
 
 name = "stb_image"
-version = v"2.23.0"
+version = v"1.0.0"
 
 # Collection of sources required to build STBImageBuilder
 sources = [
